@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
+    <title>Report do Lab-01</title>
+</head>
+
+<body>
+    <h1>Report do Lab-01</h1>
+
+    <!-- PONTO-01 -->
+    <section id="ponto-01">
+        <h2>1º Ponto</h2>
+
+        <p>Esse ponto abordou os seguintes assuntos:</p>
+        <ul>
+            <li>A criação de um ficheiro HTML.</li>
+            <li>A estrutura semântica das tags do HTML.</li>
+            <li>A criação de um repositorio no Github.</li>
+            <li>O alojamento dessa página na nuvem.</li>
+        </ul>
+    </section>
+
+    <!-- PONTO-02 -->
+    <section id="ponto-02">
+        <h2>2º Ponto</h2>
+
+        <p>Esse ponto abordou os seguintes assuntos:</p>
+        <ul>
+            <li>Como obter o seu IP, o IP do seu telemóvel e o IP da aplicação no Heroku</li>
+            <li>Como obter a localização, e mais algumas informações, do seu IP</li>
+            <li>Como descobrir o percurso que a sua requisição faz até chegar no servidor da aplicação</li>
+        </ul>
+
+        <h3>Localização de cada IP</h3>
+        <figure>
+            <img src="./img/ip_pc_mapa.png" alt="Localização do meu computador">
+            <figcaption>Localização do meu computador</figcaption>
+        </figure>
+
+        <figure>
+            <img src="/img/telemovel_mapa.jpeg" alt="Localização do meu telemóvel">
+            <figcaption>Localização do meu telemóvel</figcaption>
+        </figure>
+
+        <figure>
+            <img src="/img/ip_heroku_mapa.png" alt="Localização da minha aplicação no Heroku">
+            <figcaption>Localização da minha aplicação no Heroku</figcaption>
+        </figure>
+
+        <h3>Percurso</h3>
+        <p>Usando o <a href="https://geotraceroute.com/" target="_blank">geotraceroute</a> podemos observar
+            percurso que o nosso requerimento faz até chegar no servidor do Heroku. O percuso é finalizado em um local
+            diferente do encontrado nas pesquisas feitas no Ponto-02, mas não consegui entender o motivo.</p>
+        
+        <ul>
+            <li>&#127987 PT - Prior Velho (0 km)</li>
+            <li>&#127987 PT - Lisbon (8 km)</li>
+            <li>&#127987 DE - Frankfurt (1879 km)</li>
+        </ul>
+        
+        <figure>
+            <img src="img/ip_heroku_globo.png"
+                alt="Rota até chegar na minha página hospedada no Heroku. A roda é mostrada em um globo 3D">
+            <figcaption>Rota até chegar na minha página hospedada no Heroku</figcaption>
+        </figure>
+    </section>
+
+    <!-- PONTO-03 -->
+    <section id="ponto-03">
+        <h2>3º Ponto</h2>
+        <p>Esse ponto abordou os seguintes assuntos:</p>
+        <ul>
+            <li>Protocolo HTTP.</li>
+            <li>Como podemos ver o código fonte da página atual.</li>
+            <li>Como usar o browser developer tool</li>
+        </ul>
+
+        <h3>Inspect</h3>
+        <p>Também foi pedido para analizarmos a aba "Network" do developr tool</p>
+        
+        <figure>
+            <img src="/img/ficheiros_heroku.png" alt="Ficheiros que são descarregados quando carrega a página">
+            <figcaption>Ficheiros que são descarregados quando carrega a página</figcaption>
+        </figure>
+
+        <figure>
+            <img src="/img/net_header_heroku.png" alt="Aba Headers da página.">
+            <figcaption>Headers da página</figcaption>
+        </figure>
+
+        <figure>
+            <img src="/img/net_timing_heroku.png" alt="Aba Timing da página.">
+            <figcaption>Timing do carregamento de cada ficheiro</figcaption>
+        </figure>
+    </section>
+</body>
+
+</html>
