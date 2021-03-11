@@ -21,7 +21,9 @@
             <a href="./index.html">Introdução |</a>
             <a href="./local.html">Localização |</a>
             <a href="./multimedia.html"><b>Multimédia</b> |</a>
-            <a href="./info.html">Informações</a>
+            <a href="./info.html">Informações |</a>
+            <a href="./quizz.html">Quizz |</a>
+            <a href="./comentarios.html">Comentarios</a>
         </nav>
 
     </header>
@@ -29,16 +31,12 @@
     <main>
         <h3>Multimédia</h3>
         <p>Duas fotos da cidade</p>
-        <!-- Inserir duas imagens que são links para uma imgagem maior -->
-        <figure>
-            <a href="./images/cloud_forest_grande.jpg"><img src="./images/cloud_forest_pequeno.jpg" alt="Imagem da Cloud Forest em Singapura"></a>
-            <figcaption>Cloud Forest</figcaption>
-        </figure>
+    
+        <a href="./images/cloud_forest_grande.jpg" target="foto">Cloud Forest</a>
+        <a href="./images/supertree_grove_grande.jpg" target="foto">Supertree Grove</a>
 
-        <figure>
-            <a href="./images/supertree_grove_grande.jpg"><img src="./images/supertree_grove_pequeno.jpg" alt="Imagem da Supertree Grove em Singapura"></a>
-            <figcaption>Supertree Grove</figcaption>
-        </figure>
+        <iframe id="image-display" src="./images/cloud_forest_grande.jpg" name="foto" width="800" height="500" scrolling="no"></iframe>
+
         <!-- Inserir um vídeo sobre a cidade -->
         <iframe width="560" height="315" src="https://www.youtube.com/embed/P_q3BdrFsLI" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         <!-- Inserir um poema sobre a cidade WTF -->

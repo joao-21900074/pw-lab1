@@ -57,3 +57,12 @@ table {
     font-size: 40px;
     margin: 10px 0px;
 }
+
+#form-comment > textarea {
+    display: block;
+    width: 100%;
+}
+
+#image-display {
+    overflow: hidden;
+}

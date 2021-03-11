@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="João Barreiros">
+    <meta name="keywords" content="Singapura Viagens Dados">
+    <meta name="description" content="Um website com informações sobre Singapura.">
+    <link rel="shortcut icon" type="image/x-icon" href="images/favicon_transparente.ico">
+    <title>Singapura | Introdução</title>
+    <link rel="stylesheet" href="./main.css">
+</head>
+
+<body>
+    <header>
+        <h1>Singapura</h1>
+        <img src="./images/singapura.jpg" alt="Foto da paisagem de Singapura">
+        <br>
+        <nav>
+            <a href="../index.html">Home |</a>
+            <a href="./index.html"><b>Introdução</b> |</a>
+            <a href="./local.html">Localização |</a>
+            <a href="./multimedia.html">Multimédia |</a>
+            <a href="./info.html">Informações |</a>
+            <a href="./quizz.html"><b>Quizz</b> |</a>
+            <a href="./comentarios.html">Comentarios</a>
+        </nav>
+    </header>
+
+    <main>
+        <h3>Quizz</h3>
+        <form>
+            <fieldset>
+                <label for="nome">Name:</label>
+                <input type="text" id="nome" name="nome" placeholder="Nome" required autofocus>
+                <br>
+                <label for="apelido">Apelido:</label>
+                <input type="text" id="apelido " name="apelido" placeholder="Apelido" required>
+                <br>
+                <label for="email">Email:</label>
+                <input type="email" id="email " name="email" placeholder="Email" required>
+            </fieldset>
+
+            <fieldset>
+                <!-- Pergunta 01 -->
+                <label for="pergunta_01">Qual o nome do presidente de Singapura ?</label>
+                <br>
+                <input type="text" id="pergunta_01" name="pergunta_01" autocomplete="on">
+                
+                <!-- Pergunta 02 -->
+                <p>Singapura faz parte da Malasia ?</p>
+                <label for="p2_verdadeiro">Verdadeiro
+                    <input type="radio" id="p2_verdadeiro" name="pergunta_02" value="verdadeiro">
+                </label>
+                <label for="p2_falso">Falso
+                    <input type="radio" id="p2_falso" name="pergunta_02" value="falso">
+                </label>
+
+                <!-- Pergunta 03 -->
+                <p>Quais são os idiomas oficiais de Singapura ?</p>
+                <label for="p3_01">Inglês
+                    <input type="checkbox" id="p3_01" name="p3_01" value="Inglês">
+                </label>
+                <label for="p3_02">Malaio
+                    <input type="checkbox" id="p3_02" name="p3_02" value="Malaio">
+                </label>
+                <label for="p3_03">Mandarim
+                    <input type="checkbox" id="p3_03" name="p3_03" value="Mandarim">
+                </label>
+                <label for="p3_04">Tâmil
+                    <input type="checkbox" id="p3_04" name="p3_04" value="Tâmil">
+                </label>
+                <label for="p3_05">Alemão
+                    <input type="checkbox" id="p3_05" name="p3_05" value="Alemão">
+                </label>
+                <br>
+
+                <!-- Pergunta 04 -->
+                <label for="pergunta_04">Em que data Singapura se tornou independente ?</label>
+                <input type="date" id="pergunta_04">
+                <br>
+
+                <!-- Pergunta 05 -->
+                <label for="pergunta_05">Qual é a cor da principal da bandeira de Singapura ?</label>
+                <input type="color" id="pergunta_05">
+                <br>
+
+                <!-- Pergunta 06 -->
+                <label for="pergunta_06">Singapura é formada por quantas ilhas ?</label>
+                <input type="number" id="pergunta_06" step="3">
+                <br>
+
+                <!-- Pergunta 07 -->
+                <label for="pergunta_07">Qual nota você daria para Singapura ? (0/10)</label>
+                <input type="range" id="pergunta_07" name="pergunta_07" min="0" max="10">
+            </fieldset>
+            <input type="submit" >
+        </form>
+    </main>
+</body>
+
+</html>
