@@ -58,7 +58,6 @@ main > h3 {
 #form-comment {
     display: flex;
     flex-direction: column;
-    align-items: center;
     margin: 0px 30px;
 }
 
